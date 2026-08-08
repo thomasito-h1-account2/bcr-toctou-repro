@@ -1,2 +1,1 @@
-benign
-add a benign new module entry
+MALICIOUS-PAYLOAD-marker-xyz789 (would be a poisoned source URL / integrity hash in a real attack)
