@@ -1,0 +1,5 @@
+{
+  "url": "https://example.com/totally-benign-lib-1.0.0.tar.gz",
+  "integrity": "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+  "strip_prefix": "totally-benign-lib-1.0.0"
+}
