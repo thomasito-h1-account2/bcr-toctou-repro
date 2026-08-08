@@ -1,0 +1,17 @@
+name: dismiss_approvals
+
+on:
+  pull_request_target:
+    types: [synchronize]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  dismiss:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: bazelbuild/continuous-integration/actions/bcr-pr-reviewer@03ac5c92f885acca076c0f4e3b4cf0cf79e867c4 # master, real BCR action, unmodified
+        with:
+          token: ${{ secrets.MAINTAINER_TOKEN }}
+          action-type: dismiss_approvals

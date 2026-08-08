@@ -1,2 +1,1 @@
-# bcr-toctou-repro
-throwaway test repo, owned by thomasito-h1, for local reproduction of a BCR bot TOCTOU - not affiliated with bazelbuild
+throwaway test repo, owned by thomasito-h1, used to reproduce a GitHub Actions TOCTOU pattern for authorized Google OSS VRP research. Not affiliated with bazelbuild.
